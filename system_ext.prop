@@ -13,6 +13,9 @@ persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 debug.sf.enable_hwc_vds=1
 debug.sf.auto_latch_unsignaled=true
